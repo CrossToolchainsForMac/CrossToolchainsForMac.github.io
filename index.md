@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Hotfixes"
 author: jerzha@qq.com
 ---
 
