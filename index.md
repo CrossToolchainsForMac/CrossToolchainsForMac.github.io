@@ -11,5 +11,8 @@ author: jerzha@qq.com
 
 ### fatal error: bracket nesting level exceeded maximum of 256
 
-* add "-fbracket-depth=512" to CFLAGS
+* add "-fbracket-depth=512" to CFLAGS & CXXFLAGS
 
+### gcc/as: line xxx: exec: -E: invalid option
+
+* TBD
