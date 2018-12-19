@@ -14,7 +14,6 @@ author: jerzha@qq.com
 
 * add "-fbracket-depth=512" to CFLAGS & CXXFLAGS
 
-### gcc/as: line xxx: exec: -E: invalid option
+### Undefined symbols for architecture x86_64: "_libintl_textdomain"
 
-* It is because there is no default as/ld binary in host-x86_64-apple-darwin18.2.0/gcc/as
-* Workaround way: set host-x86_64-apple-darwin18.2.0/gcc/as ORIGINAL_AS_FOR_TARGET & ORIGINAL_LD_FOR_TARGET manually.
+* add "-lintl" to LDFLAGS
